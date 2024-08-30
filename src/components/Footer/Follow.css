@@ -1,0 +1,82 @@
+
+.contain span{
+display: flex;
+font-size: 25px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+color: darkgray;
+margin-bottom: 20px;
+}
+.contain h2{
+    font-size: 28px;
+    color: black;
+}
+
+.ship{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 20px;   
+}
+.ship h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: darkgray;
+}
+.payment{
+    display: flex;
+    background: #F5F5F5;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+    margin-bottom: 0px;
+}
+
+.pay h3{
+    text-align: center;
+}
+.download h3{
+    text-align: center;
+}
+.img-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    object-fit: contain;
+}
+.verify h4{
+ text-align: center;
+}
+.next span{
+    text-decoration: underline;
+}
+.pay::after, .next::after, .download::after {
+    content: "";
+    position: absolute;
+    right: 0; /* changed from left: 0 */
+    margin-right: -10px;
+    height: 110px;
+    top: 0;
+    bottom: 0;
+    border-right: 1px solid black;
+  }
+
+.pay, .next, .download {
+    position: relative;
+    /* other styles */
+  }
+  .Follow{
+   background: #F5F5F5;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 0.3px solid black;
+    margin-bottom: 10px;
+  }

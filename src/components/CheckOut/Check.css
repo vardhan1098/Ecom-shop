@@ -1,0 +1,99 @@
+/* Check.css */
+
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.delivery-info {
+    width: 50%;
+}
+
+.cart-payment-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.cart-totals {
+    margin-bottom: 20px;
+}
+
+.cart-totals p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.payment-method {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-options {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.payment-options img {
+    width: 80px; /* Adjust width as per your requirement */
+    height: auto;
+    border: 1px solid gray;
+    object-fit: contain;
+}
+.payment-options p{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px 9px;
+    cursor: pointer;
+}
+.payment-options .Loader{
+    background-color: #45b373;
+}
+.delivery-form .form-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.form-group input{
+    flex-grow: 1
+}
+.delivery-form .form-group input {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.delivery-form .form-group.full-width input {
+    width: 100%; /* Full width for Email and Street inputs */
+    padding: 10px;
+    font-size: 14px;
+}
+
+.phone-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.btn-order{
+    display: flex;
+    justify-content: end;
+}
+.btn-order .orderbtn{
+    padding: 8px 9px;
+    background:black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}

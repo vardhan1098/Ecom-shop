@@ -1,0 +1,25 @@
+
+.product-grid{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content: center;
+}
+.product-grid img{
+    height: 200px;
+    width: 200px;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+@media (max-width:768px){
+    .product-grid{
+        display: flex;
+        flex-direction: column;
+    }
+}

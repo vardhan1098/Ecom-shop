@@ -1,0 +1,24 @@
+.accordion {
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #f0f0f0;
+  }
+  
+  .accordion-toggle {
+    float: right;
+  }
+  
+  .accordion-content {
+    padding: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+  }
+  
+  .accordion-content.open {
+    height: auto;
+  }
